@@ -1,0 +1,18 @@
+import React from "react";
+import { Text, StyleSheet, View, Button, TouchableOpacity } from "react-native";
+
+const ComponentsScreen = (props) => {
+  return (
+    <View>
+      <Text style={styles.text}>Components</Text>
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  text: {
+    fontSize: 30
+  }
+});
+
+export default ComponentsScreen;
